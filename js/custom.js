@@ -64,5 +64,5 @@ function saveBtn(e) {
 
 function deleteBtn(e) {
     
-    delete library.name;
+    $("#library").remove();
 }
