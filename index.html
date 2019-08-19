@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <!-- Material form contact -->
+        <div class="card">
+
+            <h5 class="card-header info-color white-text text-center py-4">
+                <strong>Kitabxana Qeydiyyati</strong>
+            </h5>
+
+            <!--Card content-->
+            <div class="card-body px-lg-5 pt-0">
+
+
+                <form class="text-center" style="color: #757575;" action="#!">
+
+
+                    <div class="md-form mt-3">
+                        <label for="materialContactFormName">Ad</label>
+                        <input type="text" id="name" class="form-control" placeholder="Ad daxil edin...">
+
+                    </div>
+                    <div class="md-form mt-3">
+                        <label for="materialContactFormName">Soyad</label>
+                        <input type="text" id="surname" class="form-control" placeholder="Soyad daxil edin...">
+
+                    </div>
+                    <div class="md-form mt-3">
+                        <label for="materialContactFormName">Janr</label>
+                        <input type="text" id="category" class="form-control" placeholder="Janr daxil edin...">
+
+                    </div>
+                    <div class="md-form mt-3">
+                        <label for="materialContactFormName">Olke</label>
+                        <input type="text" id="country" class="form-control" placeholder="Olke daxil edin...">
+
+                    </div>
+                    <div class="md-form mt-3">
+                        <label for="materialContactFormName">Il</label>
+                        <input type="text" id="year" class="form-control" placeholder="Cap olundugu ili daxil edin...">
+
+                    </div>
+                    <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                        type="submit" onclick="addBtn(this)">Elave et</button>
+                    <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                        type="submit" onclick="saveBtn(this)">Yadda Saxla</button>
+                    <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                        type="submit" onclick="deleteBtn(this)">Sil</button>
+
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+
+
+    <div class="table-responsive text-nowrap">
+        <!--Table-->
+        <table  id="library" class="table table-striped">
+
+            <!--Table head-->
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Category</th>
+                    <th>City</th>
+                    <th>Year</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+            
+
+
+        </table>
+        
+    </div>
+    </section>
+    
+
+
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
